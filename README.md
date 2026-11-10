@@ -2,7 +2,7 @@
 
 **Name:** Heartsson D. Sencio
 
-**Section:** Lab A/Lab B
+**Section:** Lab A
 
 **Instructor:** IPTTeacherJonas
 
