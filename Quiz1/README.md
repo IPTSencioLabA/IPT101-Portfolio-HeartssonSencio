@@ -1,0 +1,2 @@
+Title: QUIZ 1: Basic JS Codes
+Description: This Quiz Contains Basic coding method of java Script, like declairing varibles or set the variable type and the simple calling out the output using console.log()  
