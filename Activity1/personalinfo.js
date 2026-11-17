@@ -26,10 +26,41 @@ console.log("")
 console.log("Sub 1:", Subjects.LAWOR, "\nSub 2:",Subjects.AD, "\nSub 3:",Subjects.IPT)
 console.log("")
 let TotalUnits = Units.LAWOR + Units.AD + Units.IPT
-const GWA = { 
-    LAWOR: Grades.LAWOR * Units.LAWOR  / TotalUnits,
-    AD: Grades.AD * Units.AD  / TotalUnits,
-    IPT: Grades.IPT * Units.IPT  / TotalUnits
+let CalculatedTotal = (Grades.LAWOR * Units.LAWOR) + (Grades.AD * Units.AD) + (Grades.IPT * Units.IPT);
+let GWA = CalculatedTotal  / TotalUnits
+
+let LetterGrade = ""
+let Failed = ""
+
+if (GWA <= 100 && GWA >= 98){
+    LetterGrade = 'A'
 }
-console.log("General Weighted Average: ",GWA.LAWOR + GWA.AD + GWA.IPT,"\nLetter Grade: D")
+else if (GWA <= 97 && GWA >= 95){
+    LetterGrade = 'A-'
+}
+else if (GWA <= 94 && GWA >= 92){
+    LetterGrade = "B+"
+}
+else if (GWA <= 91 && GWA >= 89){
+    LetterGrade = "B"
+}
+else if(GWA <= 88 && GWA >= 85){
+    LetterGrade = "B-"
+}
+else if(GWA <= 84 && GWA >= 82){
+    LetterGrade = "C+"
+}
+else if(GWA <= 81 && GWA >= 79){
+    LetterGrade = "C"
+}
+else if(GWA <= 78 && GWA >= 75){
+    LetterGrade = "D"
+}
+else{
+    Failed = "Failed"
+}
+
+
+
+console.log("General Weighted Average: ",GWA,"\nLetter Grade:", LetterGrade)
 
