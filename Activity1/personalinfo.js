@@ -100,21 +100,21 @@ let CurrentGWA = 0;
 console.log("=== Final Grading ===");
 
 CurrentGWA = GWA1;
-if (CurrentGWA >= 98) {
+if (CurrentGWA >= 98 && CurrentGWA <= 100) {
     LetterGrade = "A";
-} else if (CurrentGWA >= 95) {
+} else if (CurrentGWA >= 95 && CurrentGWA < 98) {
     LetterGrade = "A-";
-} else if (CurrentGWA >= 92) {
+} else if (CurrentGWA >= 92 && CurrentGWA < 95) {
     LetterGrade = "B+";
-} else if (CurrentGWA >= 89) {
+} else if (CurrentGWA >= 89 && CurrentGWA < 92) {
     LetterGrade = "B";
-} else if (CurrentGWA >= 85) {
+} else if (CurrentGWA >= 85 && CurrentGWA < 89) {
     LetterGrade = "B-";
-} else if (CurrentGWA >= 82) {
+} else if (CurrentGWA >= 82 && CurrentGWA < 85) {
     LetterGrade = "C+";
-} else if (CurrentGWA >= 79) {
+} else if (CurrentGWA >= 79 && CurrentGWA < 82) {
     LetterGrade = "C";
-} else if (CurrentGWA >= 75) {
+} else if (CurrentGWA >= 75 && CurrentGWA < 79) {
     LetterGrade = "D";
 } else {
     LetterGrade = "Failed";
@@ -124,21 +124,21 @@ console.log("General Weighted Average:", GWA1, "\nLetter Grade:", LetterGrade);
 
 console.log("");
 CurrentGWA = GWA2;
-if (CurrentGWA >= 98) {
+if (CurrentGWA >= 98 && CurrentGWA <= 100) {
     LetterGrade = "A";
-} else if (CurrentGWA >= 95) {
+} else if (CurrentGWA >= 95 && CurrentGWA < 98) {
     LetterGrade = "A-";
-} else if (CurrentGWA >= 92) {
+} else if (CurrentGWA >= 92 && CurrentGWA < 95) {
     LetterGrade = "B+";
-} else if (CurrentGWA >= 89) {
+} else if (CurrentGWA >= 89 && CurrentGWA < 92) {
     LetterGrade = "B";
-} else if (CurrentGWA >= 85) {
+} else if (CurrentGWA >= 85 && CurrentGWA < 89) {
     LetterGrade = "B-";
-} else if (CurrentGWA >= 82) {
+} else if (CurrentGWA >= 82 && CurrentGWA < 85) {
     LetterGrade = "C+";
-} else if (CurrentGWA >= 79) {
+} else if (CurrentGWA >= 79 && CurrentGWA < 82) {
     LetterGrade = "C";
-} else if (CurrentGWA >= 75) {
+} else if (CurrentGWA >= 75 && CurrentGWA < 79) {
     LetterGrade = "D";
 } else {
     LetterGrade = "Failed";
@@ -148,21 +148,21 @@ console.log("General Weighted Average:", GWA2, "\nLetter Grade:", LetterGrade);
 
 console.log("");
 CurrentGWA = GWA3;
-if (CurrentGWA >= 98) {
+if (CurrentGWA >= 98 && CurrentGWA <= 100) {
     LetterGrade = "A";
-} else if (CurrentGWA >= 95) {
+} else if (CurrentGWA >= 95 && CurrentGWA < 98) {
     LetterGrade = "A-";
-} else if (CurrentGWA >= 92) {
+} else if (CurrentGWA >= 92 && CurrentGWA < 95) {
     LetterGrade = "B+";
-} else if (CurrentGWA >= 89) {
+} else if (CurrentGWA >= 89 && CurrentGWA < 92) {
     LetterGrade = "B";
-} else if (CurrentGWA >= 85) {
+} else if (CurrentGWA >= 85 && CurrentGWA < 89) {
     LetterGrade = "B-";
-} else if (CurrentGWA >= 82) {
+} else if (CurrentGWA >= 82 && CurrentGWA < 85) {
     LetterGrade = "C+";
-} else if (CurrentGWA >= 79) {
+} else if (CurrentGWA >= 79 && CurrentGWA < 82) {
     LetterGrade = "C";
-} else if (CurrentGWA >= 75) {
+} else if (CurrentGWA >= 75 && CurrentGWA < 79) {
     LetterGrade = "D";
 } else {
     LetterGrade = "Failed";
@@ -172,21 +172,21 @@ console.log("General Weighted Average:", GWA3, "\nLetter Grade:", LetterGrade);
 
 console.log("");
 CurrentGWA = GWA4;
-if (CurrentGWA >= 98) {
+if (CurrentGWA >= 98 && CurrentGWA <= 100) {
     LetterGrade = "A";
-} else if (CurrentGWA >= 95) {
+} else if (CurrentGWA >= 95 && CurrentGWA < 98) {
     LetterGrade = "A-";
-} else if (CurrentGWA >= 92) {
+} else if (CurrentGWA >= 92 && CurrentGWA < 95) {
     LetterGrade = "B+";
-} else if (CurrentGWA >= 89) {
+} else if (CurrentGWA >= 89 && CurrentGWA < 92) {
     LetterGrade = "B";
-} else if (CurrentGWA >= 85) {
+} else if (CurrentGWA >= 85 && CurrentGWA < 89) {
     LetterGrade = "B-";
-} else if (CurrentGWA >= 82) {
+} else if (CurrentGWA >= 82 && CurrentGWA < 85) {
     LetterGrade = "C+";
-} else if (CurrentGWA >= 79) {
+} else if (CurrentGWA >= 79 && CurrentGWA < 82) {
     LetterGrade = "C";
-} else if (CurrentGWA >= 75) {
+} else if (CurrentGWA >= 75 && CurrentGWA < 79) {
     LetterGrade = "D";
 } else {
     LetterGrade = "Failed";
