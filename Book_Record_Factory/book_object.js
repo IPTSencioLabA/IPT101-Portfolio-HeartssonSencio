@@ -1,7 +1,7 @@
 export const book = {
-  title: "Eloquent JavaScript",
-  author: "Marijn Haverbeke",
-  year: 2024,
+  title: "Java Script",
+  author: "Jonas Bareng",
+  year: 2026,
   read: true,
 
   Read() {
