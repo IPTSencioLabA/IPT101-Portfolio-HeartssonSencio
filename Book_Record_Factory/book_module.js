@@ -1,21 +1,11 @@
 import { book } from "./book_object.js";
 
-export function formatBookStatus(targetBook, status) {
-  let activeStatus = "available";
-  if (status) {
-    activeStatus = status;
-  }
+export function formatBookStatus(targetBook, status = "available") {
+  const formattedStatus = String(status).toUpperCase();
 
-  const formattedStatus = String(activeStatus).toUpperCase();
-
-  let readLabel = "UNREAD";
-  if (targetBook.read) {
-    readLabel = "READ";
-  }
-
-  return `[${formattedStatus}] "${targetBook.title}" by ${targetBook.author} (${targetBook.year}) - ${readLabel}`;
+  return `[${formattedStatus}] "${targetBook.title}" by ${targetBook.author} (${targetBook.year}) - read: ${targetBook.read}`;
 }
 
-export function getBookLabel(status) {
+export function getBookLabel(status = "available") {
   return formatBookStatus(book, status);
 }

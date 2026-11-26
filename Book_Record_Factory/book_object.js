@@ -1,14 +1,10 @@
 export const book = {
-  title: "Java Script",
+  title: "JavaScript",
   author: "Jonas Bareng",
-  year: 2026,
+  year: 2024,
   read: true,
 
   Read() {
-    if (this.read) {
-      return false;
-    } else {
-      return true;
-    }
+    return this.read == false;
   },
 };
