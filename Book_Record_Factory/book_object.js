@@ -1,7 +1,7 @@
 export const book = {
   title: "JavaScript",
   author: "Jonas Bareng",
-  year: 2024,
+  year: 2026,
   read: true,
 
   Read() {
